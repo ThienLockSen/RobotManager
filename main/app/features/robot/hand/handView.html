@@ -1,0 +1,9 @@
+<h1>Hand view</h1>
+{{currentStep}}
+
+
+<robot-hand hand-model="currentStep.hand" scale="1" editable="true"></robot-hand>
+
+<button ng-click="robotPlayerService.playHand(currentStep.hand)">Play</button>
+
+
